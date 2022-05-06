@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root:root {
+  --adm-color-primary: #a062d4;
+}

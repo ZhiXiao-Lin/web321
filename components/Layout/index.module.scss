@@ -1,8 +1,13 @@
+
 .container {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
-    color: #282a2d;
-    background: #f9f9f9;
+    min-height: 100vh;
+    padding: 0 .6rem;
+    padding-top: var(--w3-nav-bar-height);
+    overflow-x: hidden;
+    overflow-y: auto;
+    color:  var(--w3-global-color);
+    background: var(--w3-global-bg);
 }

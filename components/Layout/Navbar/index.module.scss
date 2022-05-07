@@ -1,4 +1,10 @@
+
 .container {
-    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    height: var(--w3-nav-bar-height);    
+    padding: .2rem 0;
+    background-color: var(--w3-bg);
 }

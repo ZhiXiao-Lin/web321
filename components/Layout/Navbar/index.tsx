@@ -1,6 +1,7 @@
 import { NavBar as AdmNavBar } from "antd-mobile";
 import { NavBarProps as AdmNavBarProps } from "antd-mobile/es/components/nav-bar";
 import Head from "next/head";
+import Logo from "@/components/Logo";
 import styles from "./index.module.scss";
 
 interface NavbarProps extends AdmNavBarProps {}
@@ -15,7 +16,7 @@ const Navbar = (props: NavbarProps) => {
       </Head>
       <div className={styles.container}>
         <AdmNavBar back={null} {...props}>
-          Web321
+          <Logo />
         </AdmNavBar>
       </div>
     </>

@@ -1,4 +1,23 @@
 .container {
-    height: 100px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    margin: 1.2rem 0;
+    padding: 1.2rem;
+    background-color: var(--w3-bg);
+
+    .content {
+        margin: 2rem 0;
+
+        .info {
+            margin: 1rem 0;
+            color: var(--w3-color-text-secondary);
+            font-size: var(--w3-text-sm);
+        }
+    }
+
+    .copyright {
+        color: #808080;
+        font-size: var(--w3-text-xs);
+    }
 }

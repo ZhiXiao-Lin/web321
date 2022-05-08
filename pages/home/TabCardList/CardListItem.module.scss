@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    align-items: center;
+    height: 4.6rem;
+    padding: 1rem;
+    background-color: var(--w3-global-bg);
+    border-radius: var(--w3-border-radius-sm);
+    box-shadow: var(--w3-box-shadow);
+    .content {
+        margin-left: 1rem;
+        .title {
+            color: var(--w3-color-text-primary);
+        }
+        .subtitle {
+            font-size: var(--w3-text-xs);
+            color: var(--w3-color-text-secondary);
+        }  
+    }  
+}

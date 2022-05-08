@@ -17,7 +17,7 @@ a {
 }
 
 :root:root {
-  --adm-color-primary: #a062d4;
+  --adm-color-primary: #f1404b;
 
   --w3-global-color: #282a2d;
   --w3-global-bg: #ffffff;
@@ -28,8 +28,11 @@ a {
 
   --w3-box-shadow: 0px 0px 20px -5px rgb(158 158 158 / 20%);
 
+  --w3-color-text-primary: #282a2d;
   --w3-color-text-secondary: #6c757d;
 
+  --w3-text-lg: 1.2rem;
+  --w3-text: 1rem;
   --w3-text-sm: 0.875rem;
   --w3-text-xs: 0.75rem;
 

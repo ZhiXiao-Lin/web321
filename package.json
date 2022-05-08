@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=9000 next dev",
+    "dev": "cross-env PORT=9000 next dev",
     "build": "next build",
-    "start": "PORT=9000 next start",
+    "start": "cross-env PORT=9000 next start",
     "lint": "next lint",
     "icon": "npx iconfont-h5"
   },
   "dependencies": {
+    "ahooks": "^3.3.10",
     "antd-mobile": "^5.11.2",
     "next": "12.1.6",
     "react": "18.1.0",
@@ -19,6 +20,7 @@
     "@types/node": "17.0.31",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",

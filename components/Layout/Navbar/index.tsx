@@ -11,11 +11,11 @@ const Navbar = (props: NavbarProps) => {
     <AdmNavBar
       className={styles.container}
       back={null}
-      left={
-        <div className={styles.menu}>
-          <IconMenu size={1.5} />
-        </div>
-      }
+      // left={
+      //   <div className={styles.menu}>
+      //     <IconMenu size={1.5} />
+      //   </div>
+      // }
       {...props}
     >
       <Logo />

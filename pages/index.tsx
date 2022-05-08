@@ -1,8 +1,8 @@
-import TabCardList, { TabCardItemProps } from "./home/TabCardList";
+import TabCardList, { TabCardItemProps } from "@/components/TabCardList";
 
-import Banner from "./home/Banner";
-import { CardListItemProps } from "./home/TabCardList/CardListItem";
-import CardTitle from "./home/CardTitle";
+import Banner from "@/components/Banner";
+import { CardListItemProps } from "@/components/TabCardList/CardListItem";
+import CardTitle from "@/components/CardTitle";
 import styles from "./index.module.scss";
 
 const platformTags: TabCardItemProps[] = [

@@ -6,7 +6,7 @@ interface CardListProps {
   items: CardListItemProps[];
 }
 
-const CardList = ({ items }: CardListProps) => {
+const CardList = ({ items = [] }: CardListProps) => {
   return (
     <Grid columns={2} gap={[18, 16]}>
       {items.map((item, idx) => (

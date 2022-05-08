@@ -17,7 +17,7 @@ interface TabCardListProps {
 
 const TabCardList = ({ type = "platform", tabs, items }: TabCardListProps) => {
   const state = useReactive<{ key: string }>({
-    key: tabs[0].type,
+    key: tabs[0]?.type,
   });
 
   return (
@@ -27,6 +27,7 @@ const TabCardList = ({ type = "platform", tabs, items }: TabCardListProps) => {
           state.key = key;
         }}
         className={styles.container}
+        defaultActiveKey={tabs[0]?.type}
       >
         {tabs.map((tab) => (
           <CapsuleTabs.Tab title={tab.title} key={tab.type} />

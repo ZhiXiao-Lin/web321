@@ -4,15 +4,22 @@
     width: 100%;
     margin: 1.2rem 0;
     padding: 1.2rem;
-    background-color: var(--w3-bg);
-
+    background-color: var(--w3-global-bg);
+    border-radius: var(--w3-border-radius);
+    box-shadow: var(--w3-box-shadow);
     .content {
-        margin: 2rem 0;
+        margin: 2rem 0 4rem 0;
 
         .info {
             margin: 1rem 0;
             color: var(--w3-color-text-secondary);
             font-size: var(--w3-text-sm);
+        }
+
+        .links {
+            .link {
+                color: var(--w3-color-text-secondary);
+            }
         }
     }
 

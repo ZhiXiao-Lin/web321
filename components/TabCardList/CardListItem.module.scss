@@ -1,0 +1,9 @@
+.item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+    background-color: var(--w3-global-bg);
+    border-radius: var(--w3-border-radius-sm);
+    box-shadow: var(--w3-box-shadow);    
+}

@@ -1,0 +1,11 @@
+.container {
+    background-color: transparent;
+    :global {
+        .adm-capsule-tabs-header {
+            border-bottom: none;
+        }
+        .adm-capsule-tabs-tab {
+            padding: .2rem 1rem;
+        }
+    }
+}
